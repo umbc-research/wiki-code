@@ -1,33 +1,4 @@
-# How to get a github repo's files onto the actual web
-
-So the general idea is that you have to pubish your github repository as an actual website, which you can do through github. Then the links to all of your files are simply another "page" in the website.
-
-To do that:
-1. Change repository to public
-
-2. Go to settings>pages:
-
-  Change branches to main and root, this will start the website creation process
-
-3. Wait until site goes up (Could take up to 10 minutes or so)
-
-4. Go to the file in your repository you want to iframe.
-
-5. Then click "raw" in the top right
-
-6. This will bring you to a new page, now technically a website page, you can simply copy that link and use it in an iframe
-
-   Ex: This page's link is:
-   ```
-   https://elliotgobbert.github.io/iFrameTest/README.md
-   ```
-
-Notes:
-
-It can take a bit for the website to refresh a file when you've changed it, so give it 15 minutes or so whenever you make a change.
-
-
-### How to get the nice looking code into Confluence
+# How to get the nice looking code into Confluence
 
 
 So essentially, what we're doing is having the confluence iframe direct to an html file, which parses through the code file of your choice, and "beautifies" it for confluence. Then, you can have a separate link underneath, which leads to the actual code file, for an easy wget command or file download.
@@ -67,3 +38,38 @@ https://OWNEROFGITHUBREPO.github.io/REPONAME/FILENAME.CODELANGUAGE
 ```
 
 This will allow the users to actually download the file, through a wget or a manual download.
+
+
+
+
+## Optional tutorial: 
+
+### How to get a github repo's files onto the actual web
+
+So the general idea is that you have to pubish your github repository as an actual website, which you can do through github. Then the links to all of your files are simply another "page" in the website.
+
+To do that:
+1. Change repository to public
+
+2. Go to settings>pages:
+
+  Change branches to main and root, this will start the website creation process
+
+3. Wait until site goes up (Could take up to 10 minutes or so)
+
+4. Go to the file in your repository you want to iframe.
+
+5. Then click "raw" in the top right
+
+6. This will bring you to a new page, now technically a website page, you can simply copy that link and use it in an iframe
+
+   Ex: This page's link is:
+   ```
+   https://elliotgobbert.github.io/iFrameTest/README.md
+   ```
+
+Notes:
+
+It can take a bit for the website to refresh a file when you've changed it, so give it 15 minutes or so whenever you make a change.
+
+
