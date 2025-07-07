@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --job-name=hello                # Job name
+#SBATCH --job-name=hello_parallel       # Job name
 #SBATCH --output=slurm.out              # Output file name
 #SBATCH --error=slurm.err               # Error file name
 #SBATCH --cluster=chip-cpu              # Cluster
