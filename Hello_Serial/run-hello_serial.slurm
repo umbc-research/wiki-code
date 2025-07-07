@@ -4,6 +4,7 @@
 #SBATCH --output=slurm.out              # Output file name
 #SBATCH --error=slurm.err               # Error file name
 #SBATCH --cluster=chip-cpu              # Requesting a job on chip CPU cluster
+#SBATCH --account=pi_userid             # Account
 #SBATCH --partition=general             # Partition
 #SBATCH --qos=short                     # Queue
 #SBATCH --time=00:05:00                 # Time limit 
