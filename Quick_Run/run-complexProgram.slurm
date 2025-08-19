@@ -12,4 +12,5 @@
 #SBATCH --ntasks-per-node=1                 # MPI processes per node
 #SBATCH --mem=4G                            # Memory per node
 
+module load intel/2024a
 ./complexProgram
